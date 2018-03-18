@@ -2,6 +2,9 @@ package EE5;
 
 public class EE53LanceDes {
 
+	/**
+	 * Cette méthode affiche les stats.
+	 */
 	public static void StatLanceDes() {
 		
 		StatCalc stat = new StatCalc();
@@ -20,6 +23,10 @@ public class EE53LanceDes {
 		
 	}
 
+	/**
+	 * Lance la méthode StatLanceDes.
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		StatLanceDes();
 
